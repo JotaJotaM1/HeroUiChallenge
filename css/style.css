@@ -1,0 +1,70 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=:wght@400;700&display=swap");
+
+* {
+  font-family: "", sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --black-1: #202020;
+  --primary: #1b90fc;
+  --grey: #929292;
+  --headline1: 700 2.5rem / normal;
+  --subtitle1: 700 1.625rem/1.5rem;
+  --button: 700 0.875rem/1rem;
+  --headline2: 700 1.5rem / normal;
+  --body1-regular: 400 1rem/1.5rem;
+  --body1-bold: 700 1rem/1.5rem;
+  --body2-bold: 700 0.875rem/1.5rem;
+  --body2-regular: 400 0.875rem/1.5rem;
+  --caption-regular: 400 0.75rem/1.5rem;
+  --caption-bold: 700 0.75rem/1.5rem;
+}
+
+body {
+  background-color: var(--black-1);
+}
+.imgLoki {
+  height: 300px;
+  width: auto;
+  background-image: url(../img/completojpg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.fatherContain {
+  margin: 30px;
+}
+.logoLoki {
+  height: 40px;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 25px;
+  color: var(--white);
+}
+h2 {
+  margin-top: 15px;
+  font-size: 15px;
+  color: var(--white);
+  line-height: 25px;
+}
+.containButton {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+button {
+  height: 50px;
+  width: 100%;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: var(--primary);
+  cursor: pointer;
+}

@@ -26,9 +26,7 @@ h1{
   font: var(--headline1);
 }
 
-h2{
-  font: var(--headline2);
-}
+
 
 h3{
   font: var(--button);
